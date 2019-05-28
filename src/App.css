@@ -12,12 +12,12 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 10px;
-    background-color: teal;
-    color: darkblue;
+    background-color: black;
+    color: white;
 }
 
 .main {
-    background-color: red;
+    background-color: #132639;;
     color: white;
     font-size: 14px;
     letter-spacing: 1px;
@@ -26,7 +26,6 @@
 }
 
 .mainLayout {
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,17 +39,19 @@
     flex-direction: column;
     align-items: center;
     text-transform: capitalize;
-    background-color: chartreuse;
-    font-size: 18px;
+    font-weight: bold;
+    background-color: #001a33;
+    font-size: 20px;
 }
 
 .employeesList {
     width: 340px;
-    background-color: darkgreen;
+    background-color: #001a33;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0;
+    margin: 0;
 }
 
 .employeeItem {
