@@ -1,0 +1,45 @@
+.rotate-img {
+    -webkit-transform : rotate(31.4deg); /* Chrome, Opera 15+, Safari 3.1+ */
+    -moz-transform    : rotate(31.4deg); /* Fx 3.5-15 */
+    -ms-transform     : rotate(31.4deg); /* IE 9 */
+    transform         : rotate(31.4deg); /* Firefox 16+, IE 10+, Opera */
+}
+
+.titleImage {
+    -webkit-transform : rotate(211.4deg); /* Chrome, Opera 15+, Safari 3.1+ */
+    -moz-transform    : rotate(211.4deg); /* Fx 3.5-15 */
+    -ms-transform     : rotate(211.4deg); /* IE 9 */
+    transform         : rotate(211.4deg); /* Firefox 16+, IE 10+, Opera */
+
+    margin: -80px 0;
+    pointer-events: none;
+}
+
+.dividerImage {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    margin-top: -80px;
+    pointer-events: none;
+}
+
+.dividerImage img {
+    position: absolute;
+    height: 178%;
+    width: auto;
+
+    -webkit-filter: hue-rotate(160deg);
+    filter: hue-rotate(160deg);
+
+    -webkit-transform : rotate(31.4deg); /* Chrome, Opera 15+, Safari 3.1+ */
+    -moz-transform    : rotate(31.4deg); /* Fx 3.5-15 */
+    -ms-transform     : rotate(31.4deg); /* IE 9 */
+    transform         : rotate(31.4deg); /* Firefox 16+, IE 10+, Opera */
+}
+
+.divider {
+    width: 300px;
+    display: block;
+}

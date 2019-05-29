@@ -1,19 +1,27 @@
 .root {
     flex-grow: 1;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    text-align: center;
+
+    height: 120px;
     font-size: 42px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 10px;
     background-color: black;
     color: white;
+}
+
+@media screen and (max-width: 600px){
+    .header {
+        font-size: 28px;
+    }
 }
 
 .main {
@@ -23,6 +31,7 @@
     letter-spacing: 1px;
     font-weight: lighter;
     text-transform: capitalize;
+    min-height: 100vh;
 }
 
 .mainLayout {
@@ -34,18 +43,20 @@
 }
 
 .title {
-    width: 340px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-transform: capitalize;
-    font-weight: bold;
+    font-weight: normal;
     background-color: #001a33;
     font-size: 20px;
+    text-transform: uppercase;
 }
 
 .employeesList {
-    width: 340px;
+    width: 360px;
     background-color: #001a33;
     display: flex;
     flex-direction: column;
@@ -57,18 +68,22 @@
 .employeeItem {
     display: flex;
     flex-direction: column;
-    margin: 5px 20px;
 }
-.employeeItem p {
+
+
+
+.Collapsible .Collapsible__trigger {
     justify-content: center;
     display: flex;
-    font-weight: bold;
+    font-weight: normal;
+    padding: 10px;
 }
 
 .employeeDetails {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 20px 40px;
 }
 
 .employeeDetails span {
@@ -81,6 +96,3 @@
 
 }
 
-.divider {
-    width: 300px;
-}
